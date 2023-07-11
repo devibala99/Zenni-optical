@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', sans-serif;
+}
+/* header & icons sticky */
+.header{
+    width: 100%;
+    line-height: 20px;
+    height: 90px;
+    border-bottom: 1px solid grey;position: sticky;
+    top: 0;
+}
+.header .header-titles{
+    padding: 16px 16px 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+#logo-title{
+    width: 180px;
+    height: 30px; 
+    padding-right: 20px;
+}
+.main-titles{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+}
+.under-mainTag{
+    font-size: 12px;
+    color: rgb(45, 144, 175);
+    position: absolute;
+    left: 495px;
+    font-weight: bold;
+}
+#dropdown h2{
+    text-align: left;
+    margin-left: -15px;
+    color: #00a6ff;
+}
+#section-1{
+    float: left;
+    margin: 15px;
+}
+#section-2{
+    float: left;
+    margin-left: 50px;
+    margin-top:15px; 
+}
+#section-3{
+    float: left;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+#dropdown{
+    position: absolute;
+    top: 90px;
+    left: 235px;
+    font-size: 12px;
+    color: #00a6ff;
+    width: 45vw;
+    height: 43vh;
+    border: 1px solid black;
+    font-weight: bold;
+    display: none;
+}
+.header.header-titles.titles:nth-child(1):hover,#men:hover #dropdown{
+    display: inline-block;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* logo & titles in right side of the header */
+.logo{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 1000px;
+    float: right;
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+    padding: 16px;
+}
+.logo.search{
+    display: block;
+    text-align: center;
+}
+.logo div a
+{
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+}
+.logo div a .name{
+    position: relative;
+    display: block;
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    color: grey;
+}
+.logo div a .icon{
+    text-align: center;
+    color: grey;
+    font-size: 24px;
+    margin: 0 auto 10px;
+}
+.titles{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* Div & tags for animation section */
